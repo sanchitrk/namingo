@@ -1,5 +1,12 @@
 # Namingo
 
+## Install
+
+Go version 1.20+
+```
+go get github.com/sanchitrk/namingo
+```
+
 ## Usage
 
 Namingo is a [package](https://golang.org/doc/code#ImportingRemote), so all you need to do is import it into your code:
