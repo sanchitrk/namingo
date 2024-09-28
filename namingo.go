@@ -1,9 +1,10 @@
 package namingo
 
 import (
+	"math/rand"
+
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
-	"math/rand"
 )
 
 const (
@@ -44,6 +45,7 @@ func Generate(words int, sep string, tf string) string {
 	var rs string
 	if words == 1 {
 		rs = Name()
+		return rs
 	}
 	rs = Adjective() + sep + Name()
 
